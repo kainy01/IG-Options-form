@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>QUIZ</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="list">
+        <h1 class="list-q">CAN YOU GUESSE MY SECRET TALENT?</h1>
+
+        <div class="options">
+          <button type="submit" class="btn" onclick="func()">
+            <span class="letter"><p>A</p></span>
+            <p>I can juggle.</p>
+          </button>
+
+          <button type="submit" class="btn" id="true" onclick="func()">
+            <div class="ans">
+              <span class="willChange" id="icon">
+                <p id="b" class="icon">B</p></span
+              >
+            </div>
+            <p>I can play the drums.</p>
+          </button>
+
+          <button type="submit" class="btn" onclick="func()">
+            <span class="letter"><p>C</p></span>
+            <p>I can dance the tango.</p>
+          </button>
+          <button type="submit" class="btn" onclick="func()">
+            <span class="letter"><p>D</p></span>
+            <p>I speak 3 languages fluently.</p>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="myscripts.js"></script>
+  </body>
+</html>
